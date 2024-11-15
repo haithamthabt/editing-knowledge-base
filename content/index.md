@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-- [Introduction](content/introduction.md)
-- [Getting Started](content/getting-started.md)
-- [Tips and Tricks](content/tips-and-tricks.md)
-- [Checklist](content/checklist.md)
-- [FAQs](content/faqs.md)
+- [Introduction](introduction.md)
+- [Getting Started](getting-started.md)
+- [Tips and Tricks](tips-and-tricks.md)
+- [Checklist](checklist.md)
+- [FAQs](faqs.md)
