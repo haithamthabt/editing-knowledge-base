@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | escape }}</title>
+  {{ content_for :head }}
+  {{ site.stylesheets }}
 </head>
 <body>
   {{ content }}
   <footer style="text-align: center; padding: 1em; margin-top: 2em; border-top: 1px solid #ccc;">
-    <p>&copy; {{ site.time | date: "%Y" }} Limitless Media. All Rights Reserved.</p>
+    <p>&copy; {{ site.time | date: "%Y" }} Your Company Name. All Rights Reserved.</p>
   </footer>
+  {{ site.scripts }}
 </body>
 </html>
